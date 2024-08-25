@@ -8,12 +8,12 @@
   ],
   "routes": [
     {
-      "src": "(.*)",
-      "dest": ""
+      "src": "/api/(.*)",
+      "dest": "/userdata/index.js"
     },
     {
       "src": "/(.*)",
-      "dest": ""
+      "dest": "/userdata/index.js"
     }
   ]
 }
